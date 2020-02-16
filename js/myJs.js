@@ -73,7 +73,7 @@ $('#no').click(() => {
 // generate text in input
 function textGenerate() {
     var n = "";
-    var text = " Tại vì cậu đẹp trai vl :<<<<<<< ";
+    var text = " Tại vì cậu đẹp trai ghê";
     var a = Array.from(text);
     var textVal = $('#txtReason').val() ? $('#txtReason').val() : "";
     var count = textVal.length;
@@ -120,7 +120,7 @@ $('#yes').click(function() {
             Swal.fire({
                 width: 900,
                 confirmButtonText: 'Okiiiii lun <3',
-                background: '#fff url("../img/iput-bg.jpg")',
+                background: '#e6e6fa url("../img/iput-bg.jpg")',
                 title: 'Tớ biết mà ^^ Yêu cậu nhìu',
                 text: "Tối nay tớ qua đón cậu đi chơi nhaaaaaaaaa :v Còn giờ còn chần chừ gì không inbox cho t đi. ",
                 confirmButtonColor: '#83d0c9',
