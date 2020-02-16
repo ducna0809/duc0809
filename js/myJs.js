@@ -28,7 +28,7 @@ function firstQuestion(){
 
  // switch button position
  function switchButton() {
-    var audio = new Audio('../sound/duck.mp3');
+    var audio = new Audio('sound/duck.mp3');
     audio.play();
     var leftNo = $('#no').css("left");
     var topNO = $('#no').css("top");
@@ -38,14 +38,18 @@ function firstQuestion(){
     $('#no').css("top", topY);
     $('#yes').css("left", leftNo);
     $('#yes').css("top", topNO);
-    console.log('kk');
 }
 // move random button póition
 function moveButton() {
-    var audio = new Audio('../sound/Swish1.mp3');
+    var audio = new Audio('sound/Swish1.mp3');
     audio.play();
-    var x = Math.random() * 500;
-    var y = Math.random() * 500;
+    if (screen.width<=600) {
+        var x = Math.random() * 300;
+        var y = Math.random() * 500;
+    } else{
+        var x = Math.random() * 500;
+        var y = Math.random() * 500;
+    }
     var left = x + 'px';
     var top = y + 'px';
     $('#no').css("left", left);
@@ -61,6 +65,10 @@ $('#no').mousemove(function() {
         moveButton();
     n++;
 });
+$('#no').click(() => {
+    if (screen.width>=900)
+        switchButton();
+})
 
 // generate text in input
 function textGenerate() {
