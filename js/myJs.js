@@ -19,7 +19,7 @@ function firstQuestion(){
         imageUrl: '../img/cat.jpg',
         imageWidth: 300,
         imageHeight: 300,
-        background: '#fff url("../img/iput-bg.jpg")',
+        background: '#e6e6fa url("../img/iput-bg.jpg")',
         imageAlt: 'Custom image',
       }).then(function(){
         $('.content').show(200);
@@ -101,7 +101,7 @@ $('#yes').click(function() {
         width: 900,
         padding: '3em',
         html: "<input type='text' class='form-control' id='txtReason' onmousemove=textGenerate()  placeholder='Lý do ở đây nè '>",
-        background: '#fff url("../img/iput-bg.jpg")',
+        background: '#e6e6fa url("../img/iput-bg.jpg")',
         backdrop: `
               rgba(0,0,123,0.4)
               url("../img/gifcat.gif")
