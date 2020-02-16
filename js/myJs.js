@@ -14,7 +14,7 @@ function firstQuestion(){
     
     $('.content').hide();
     Swal.fire({
-        title: 'He lo Thùy!',
+        title: 'He looo Thùy!',
         text: 'Tớ có điều này muốn hỏi cậu nhớ phải trả lời thật lòng haaaaa.',
         imageUrl: '../img/cat.jpg',
         imageWidth: 300,
