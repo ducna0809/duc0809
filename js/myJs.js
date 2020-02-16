@@ -125,7 +125,7 @@ $('#yes').click(function() {
                 text: "Tối nay tớ qua đón cậu đi chơi nhaaaaaaaaa :v Còn giờ còn chần chừ gì không inbox cho t đi. ",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
-                    window.location = 'http://ducciro.tumblr.com';
+                    window.location = 'https://m.facebook.com/messages/thread/100004195956417/?entrypoint=profile_message_button';
                   }
             })
         }
