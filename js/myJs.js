@@ -114,7 +114,7 @@ $('#yes').click(function() {
                 confirmButtonText: 'Okiiiii lun <3',
                 background: '#fff url("../img/iput-bg.jpg")',
                 title: 'Tớ biết mà ^^ Yêu cậu nhìu',
-                text: "Tối nay tớ qua đón cậu đi chơi nhaaaaaaaaa :v Còn giờ còn chần chừ gì không inbox cho t đi >> ",
+                text: "Tối nay tớ qua đón cậu đi chơi nhaaaaaaaaa :v Còn giờ còn chần chừ gì không inbox cho t đi. ",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
                     window.location = 'http://ducciro.tumblr.com';
